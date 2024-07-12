@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 70vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#sortby{
+    margin: 5% 0 1% 10%;
+    /* margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 1%; */
+
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6{
+    height: 40%;
+    width: 30%;
+    border: 1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+#img1 {
+    background-image: url("https://cdn.pixabay.com/photo/2022/12/02/05/13/dog-7630252_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    background: url("https://images.unsplash.com/photo-1601758063541-d2f50b4aafb2?q=80&w=2005&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img3 {
+    background: url("https://images.unsplash.com/photo-1516280030429-27679b3dc9cf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img4 {
+    background: url("https://images.unsplash.com/photo-1612690319858-99b5b909fae1?q=80&w=2018&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img5 {
+    background: url("https://images.unsplash.com/photo-1459603677915-a62079ffd002?q=80&w=1834&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img6 {
+    background: url("https://images.unsplash.com/photo-1577697969415-defcbe2cfc71?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card{
+    transition: all ease-in-out 0.2s;
+
+    &:hover{
+        scale: 1.1;
+    }
+}
