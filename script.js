@@ -7,6 +7,8 @@ const building1 = $("#img6")
 const currentSort = $("#option").click(function(){
     // console.log($(".card"));
     if(currentSort[0].value==0){
+    
+
         $(".card").show()
     }
     if (currentSort[0].value==1){
